@@ -1,0 +1,3 @@
+[submodule "Synapse/vendor/spdlog"]
+	path = Synapse/vendor/spdlog
+	url = https://github.com/gabime/spdlog/tree/master
