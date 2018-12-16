@@ -18,6 +18,9 @@ project "Synapse"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "synpch.h"
+	pchsource "Synapse/src/synpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
